@@ -72,10 +72,10 @@ background_imager: {
 	},
 	your_target: {
 		files: [{
-			//expand: true,							// DO NOT set expand true
+			//expand: true,						// DO NOT set expand true
 			cwd: "src/images/",					// DO set cwd as intended (directory)
 			src: ["*.{jpg,gif,png}"],
-			dest: "./src/styles/less/background-images.less"
+			dest: "./src/styles/background-images.css"
 		}]
 	}
 }
