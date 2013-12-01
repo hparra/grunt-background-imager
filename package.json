@@ -1,0 +1,41 @@
+{
+	"name": "grunt-background-imager",
+	"version": "0.0.1",
+	"description": "Reads images and produces responsive CSS classes",
+	"homepage": "",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hparra/grunt-background-imager.git"
+	},
+	"bugs": "https://github.com/hparra/grunt-background-imager/issues",
+	"author": {
+		"name": "Hector Parra",
+		"email": "hector@hectorparra.com"
+	},
+	"keywords": [
+		"gruntplugin"
+	],
+	"main": "Gruntfile.js",
+	"engines": {
+		"node": ">= 0.8.0"
+	},
+	"licenses": [
+		{
+			"type": "MIT"
+		}
+	],
+	"devDependencies": {
+		"grunt-contrib-jshint": "~0.2.0",
+		"grunt-contrib-nodeunit": "~0.1.2",
+		"grunt-contrib-clean": "~0.4.0",
+		"grunt": "~0.4.0rc2",
+		"load-grunt-tasks": "~0.2.0",
+		"jshint-stylish": "~0.1.3"
+	},
+	"scripts": {
+		"test": "grunt test"
+	},
+	"dependencies": {
+		"background-imager": "~0.1.0"
+	}
+}
