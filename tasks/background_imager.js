@@ -32,7 +32,6 @@ module.exports = function(grunt) {
 						grunt.log.warn("Source file \"" + filepath + "\" not found.");
 						return false;
 					} else {
-						grunt.log.writeln(filepath);
 						return true;
 					}
 				});
