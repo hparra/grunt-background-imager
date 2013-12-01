@@ -2,7 +2,6 @@
 	"name": "grunt-background-imager",
 	"version": "0.0.1",
 	"description": "Reads images and produces responsive CSS classes",
-	"homepage": "",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/hparra/grunt-background-imager.git"
@@ -13,7 +12,17 @@
 		"email": "hector@hectorparra.com"
 	},
 	"keywords": [
-		"gruntplugin"
+		"gruntplugin",
+		"background-imager",
+		"background-image",
+		"device-pixel-ratio",
+		"resolution",
+		"media query",
+		"css",
+		"retina",
+		"responsive",
+		"image",
+		"mobile"
 	],
 	"main": "Gruntfile.js",
 	"engines": {
