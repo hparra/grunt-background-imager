@@ -1,6 +1,6 @@
 {
 	"name": "grunt-background-imager",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Reads images and produces responsive CSS classes",
 	"repository": {
 		"type": "git",
